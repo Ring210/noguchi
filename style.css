@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; background-color: #f2f2f2; padding: 20px; }
+h1 { color: #b22222; text-align: center; }
+form { background: #fff; padding: 15px; border-radius: 10px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2); max-width: 400px; margin: auto; }
+label { display: block; margin: 10px 0; }
+input, select { padding: 5px; width: 100%; box-sizing: border-box; }
+button { padding: 10px 20px; background-color: #b22222; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
+button:hover { background-color: #8b1a1a; }
+#ticketDisplay { margin-top: 20px; padding: 15px; background: #fff; border-radius: 10px; max-width: 400px; margin: 20px auto; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); }
+#admin { max-width: 400px; margin: 20px auto; text-align: center; }

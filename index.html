@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>野口君の呪い 整理券</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>野口君の呪い 整理券アプリ</h1>
+
+  <div id="app">
+    <form id="ticketForm">
+      <label>名前: <input type="text" id="username" required></label><br>
+      <label>入場時間:
+        <select id="timeSlot"></select>
+      </label><br>
+      <button type="submit">整理券を発行</button>
+    </form>
+
+    <div id="ticketDisplay"></div>
+
+    <hr>
+
+    <div id="admin">
+      <button onclick="downloadCSV()">CSVエクスポート</button>
+      <input type="file" id="csvInput" onchange="importCSV(event)">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
